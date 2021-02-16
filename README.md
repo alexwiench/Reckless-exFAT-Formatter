@@ -46,7 +46,7 @@ Download `reckless-formatter.sh` and place it in `/usr/local/bin/`
 
 *For example*
 ```console
-sudo mv ~\Downloads\reckless-formatter.sh /usr/local/bin/reckless-formatter.sh
+sudo mv ~/Downloads/reckless-formatter.sh /usr/local/bin/reckless-formatter.sh
 ```
 You can now customize the name and info of formatted USB sticks by editing the `_formatDrive()` and `_writeInfo()` functions. 
 
@@ -73,4 +73,4 @@ Running this script is a bad idea for most people. Unless you know that you need
 
 Currently there is a 5 second window of time for you to remove the drive before it is formatted. 
 
-This is **NOT** a security tool! Your data is not security removed when using this script.
+This is **NOT** a security tool! Your data is not securely removed when using this script.
