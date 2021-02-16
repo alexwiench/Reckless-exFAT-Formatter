@@ -1,6 +1,6 @@
 #!/bin/bash
 
-_checkfordevices(){
+function _checkfordevices(){
     for usbDrive in /dev/sd*
         do
             if [ $usbDrive == "/dev/sd*" ];
